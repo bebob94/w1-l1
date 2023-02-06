@@ -1,4 +1,5 @@
 import React from "react";
+import "./image.css";
 class ImageComponent extends React.Component {
   render() {
     return (

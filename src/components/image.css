@@ -1,0 +1,13 @@
+img {
+  border-radius: 3em;
+  margin: 1em;
+  animation: gira infinite 10s linear;
+}
+@keyframes gira {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

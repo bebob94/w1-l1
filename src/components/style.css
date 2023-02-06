@@ -1,0 +1,10 @@
+.myButton {
+  margin: 2em;
+  border-radius: 3em;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.myButton:hover {
+  transform: scale(1.2);
+}

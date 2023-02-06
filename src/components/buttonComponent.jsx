@@ -1,7 +1,12 @@
+import "./style.css";
+
 const ButtonComponent = (props) => {
   return (
-    <button style={{ backgroundColor: props.color1, color: props.color2 }}>
-      {props.title}
+    <button
+      className="myButton"
+      style={{ backgroundColor: props.color1, color: props.color2 }}
+    >
+      {props.title} {props.title2}
     </button>
   );
 };

@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+
 import ButtonComponent from "./components/buttonComponent";
 import ImageComponent from "./components/ImageComponent";
 
@@ -21,13 +22,14 @@ function App() {
         </a>
         <ButtonComponent
           title="Sono un bottone"
+          title2="di ..."
           color1="black"
           color2="white"
         />
         <ImageComponent
           link="http://blog.thdlab.it/wp-content/uploads/2016/03/emoji-cacca.jpg"
           descr="cacca"
-          altezza="200px"
+          altezza="300px"
         />
       </header>
     </div>
